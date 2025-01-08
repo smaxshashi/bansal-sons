@@ -85,7 +85,7 @@ class ProductsListMenu extends StatelessWidget {
                                         ? product.imageUrls[0]
                                         : 'https://via.placeholder.com/150',
                                     height:
-                                        140.h, // Adjusted for responsiveness
+                                        120.h, // Adjusted for responsiveness
                                     width: double.infinity,
                                     fit: BoxFit.cover,
                                   ),

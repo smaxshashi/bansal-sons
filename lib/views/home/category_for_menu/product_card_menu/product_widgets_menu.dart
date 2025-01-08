@@ -42,7 +42,7 @@ class ProductCardMenu extends StatelessWidget {
                     imageUrl: product.imageUrls.isNotEmpty
                         ? product.imageUrls[0]
                         : 'https://via.placeholder.com/150',
-                    height: 140.h,
+                    height: 120.h,
                     width: double.infinity,
                     fit: BoxFit.cover,
                     placeholder: (context, url) => Center(
